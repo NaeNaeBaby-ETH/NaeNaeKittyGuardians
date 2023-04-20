@@ -4,6 +4,7 @@ import Card from '../components/Card.astro';
 import { Footer } from 'src/components/layout/Footer';
 import { Navbar } from '../components/layout/Navbar';
 import { Hero } from 'src/components/pages/home/Hero';
+import { Values } from 'src/components/pages/home/Values';
 ---
 
 <Layout title="NaeNaeKittyGuardians • Home">
@@ -12,6 +13,7 @@ import { Hero } from 'src/components/pages/home/Hero';
 		<main>
 			<div class="overflow-hidden">
 				<Hero />
+				<Values />
 			</div>
 			<Footer />
 		</main>
@@ -21,8 +23,7 @@ import { Hero } from 'src/components/pages/home/Hero';
 <style>
 	main {
 		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
+		max-width: 230ch;
 	}
 	h1 {
 		font-size: 3rem;
